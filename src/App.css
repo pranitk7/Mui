@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+}
+.logo{
+  width: 120px;
+  height: 30px;
+  margin-right: 50px;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightbox{
+  min-width: 400px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.divider{
+  color: white;
+}
+
+.flexcenter{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.herobg{
+  margin: 0 auto;
+  width: 70%;
+  height: 500px;
+}
+
+.card_img{
+  margin: 0 auto;
+  width: 140px;
+  height: 140px;
+}
